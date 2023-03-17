@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link type="text/css" rel="stylesheet" href="./public/theme/css/t-scroll.min.css">
+    <link rel="stylesheet" href="dist/sal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/joshjs@1.0.0/dist/josh.min.js">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
     <title>Fixit</title>
@@ -110,11 +114,11 @@
                 </div>
                 <div class="text-container">
                     <img src="./images/Wristwatch-rafiki.svg" alt="">
-                    <h3>Smartphone Repair</h3>
+                    <h3>Smartwatch Repair</h3>
                     <p>We are also ready to help you get smartwatches of any brand and model working again.</p>
                 </div>
                 <div class="text-container">
-                    <img src="./images/console.svg" alt="">
+                    <img src="./images/console.svg" alt="" height="300px" width="300px">
                     <h3>Game Console Repair</h3>
                     <p>FixIt provides reliable and reasonably priced game console repair services..</p>
                 </div>
@@ -131,7 +135,7 @@
                         suitable solution for any device that our customers want us to fix.</p>
                 </div>
                 <div class="price-desc">
-                    <div class="service-price">
+                    <div class="service-price spmt">
                         <img src="./images/team-classic-1.jpg" alt="">
                         <h4>Water Damage</h4>
                         <p>From $50</p>
@@ -279,10 +283,18 @@
                     <p>BRANDS WE WORK WITH</p>
                 </div>
                 <div class="brands-logo">
-                    <img src="./images/logo-1-136x20.png" alt="">
-                    <img src="./images/logo-2-111x38.png" alt="">
-                    <img src="./images/logo-3-94x36.png" alt="">
-                    <img src="./images/logo-4-156x35.png" alt="">
+                    <div class="brands">
+                        <img src="./images/logo-1-136x20.png" alt="">
+                    </div>
+                    <div class="brands">
+                        <img src="./images/logo-2-111x38.png" alt="">
+                    </div>
+                    <div class="brands">
+                        <img src="./images/logo-3-94x36.png" alt="">
+                    </div>
+                    <div class="brands">
+                        <img src="./images/logo-4-156x35.png" alt="">
+                    </div>
                 </div>
                 <a class="btn">GET IN TOUCH</a>
             </div>
@@ -291,8 +303,8 @@
 
 
     <footer>
-        <div class="footer-container">
-            <div class="logo-desc">
+        <div class="footer-container foo" data-delighter>
+            <div class="logo-desc animate__slideInRight ">
                 <img src="./images/logo-default-266x88.png" alt="">
                 <p>FixIt was founded by an experienced team of technicians who know how to get any modern PC or gadget
                     working the right way. With over 20 years of expertise, you can always trust us.</p>
@@ -300,11 +312,11 @@
                 <p>© 2022 Fixit. All Rights Reserved.
                     Privacy Policy.</p>
             </div>
-            <div class="info">
+            <div class="info animate__slideInLeft">
                 <h4>SUBSCRIBE & STAY UPDATED</h4>
                 <div class="form">
                     <input type="email" placeholder="Email">
-                    <a class="btn">SUBSCRIBE</a>
+                    <a class="btn btn-f">SUBSCRIBE</a>
                 </div>
                 <div class="company-location">
                     <div class="location">
@@ -336,6 +348,16 @@
 
 
     <script type="text/javascript" src="script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script type="text/javascript" src="delighters.js"></script>
+    <script type="text/javascript" src="./public/theme/js/t-scroll.min.js"></script>
+
+    <script src="dist/sal.js"></script>
+    <script src="js/josh.min.js"></script>
 </body>
 
 </html>
